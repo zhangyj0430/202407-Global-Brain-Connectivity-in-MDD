@@ -1,8 +1,8 @@
 # MDD_GlobalBarainConnectivity
-This repository provides core code and relevant toolboxes for data analysis in the article entitled "Dysfunction in Sensorimotor and Default Mode Networks in Major Depressive Disorder with Insights from Global Brain Connectivity "Zhang et al.
+This repository provides core code and relevant toolboxes for data analysis in the article entitled "Dysfunction in Sensorimotor and Default Mode Networks in Major Depressive Disorder with Insights from Global Brain Connectivity " Zhang et al.
 
 ## Overview
-Content includes standalone software and source code. Due to the large size of the analyzed data, we have provided the code and the significant GBC measures in a public data repository. The project is structured into four parts corresponding to the major analyses in the article, including GBC analysis, Association Analysis, Seed-based analysis, and Validation.
+Content includes standalone software and source code. Due to the large size of the analyzed data, we have provided the code and the significant GBC measures in a public data repository. The project is structured into four parts corresponding to the major analyses in the article, including GBC analysis, Association analysis, Seed-based analysis and Validation.
 
 
 ## Toolboxes
@@ -16,11 +16,13 @@ AFNI, https://afni.nimh.nih.gov/
 
 ComBatHarmonization, ver. 20180620, https://github.com/Jfortin1/ComBatHarmonization
 
-Brainnet Viewer, http://www.nitrc.org/projects/bnv/
+DPABI_V4.2, http://rfmri.org/DPABI
 
 IBM SPSS Statistics 26, commercial software, https://www.ibm.com/products/spss-statistics
 
 NeuroSynth, web-based decoding functions were used, https://neurosynth.org/
+
+Brainnet Viewer, http://www.nitrc.org/projects/bnv/
 
 We thank the authors and developers for providing these wonderful tools for data analysis. 
 
@@ -29,8 +31,8 @@ Please use the “add path” method in MATLAB to add toolboxes and scripts.
 
 ## GBC analysis
 1. Generate voxel-wise GBC maps for each participant by AFNI’s 3dTcorrMap program. The input for this step is the preprocessed fMRI data.
-2. Correct the center effect of the gradient score by using ComBatHarmonization.
-3. Calculate the global mean GBC values, and using Kolmogorov-Smirnov test and quantile-quantile plot to examine the data normality distribution. Accordingly, compare the global mean GBC between groups using the appropriate statistical tests.. 
+2. Correct the center effect of the GBC map by using ComBatHarmonization.
+3. Calculate the global mean GBC values, and using Kolmogorov-Smirnov test and quantile-quantile plot to examine the data normality distribution. Accordingly, compare the global mean GBC between groups using the appropriate statistical tests. 
 4. Calculate the significant spatial GBC patterns in MDD and HV
 5. Calculate the alterations in the GBC in MDD. 
 
