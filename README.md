@@ -1,8 +1,8 @@
 # MDD_GlobalBarainConnectivity
-This repository provides core code and relevant toolboxes for data analysis in the article entitled "Dysfunction in Sensorimotor and Default Mode Networks in Major Depressive Disorder with Insights from Global Brain Connectivity " Zhang et al.
+This repository provides core code and relevant toolboxes for data analysis in the article entitled "Dysfunction in Sensorimotor and Default Mode Networks in Major Depressive Disorder with Insights from Global Brain Connectivity " Zhang et al. Nature Mental Heanth 2024.
 
 ## Overview
-Content includes standalone software and source code. Due to the large size of the analyzed data, we have provided the code and the significant GBC measures in a public data repository. The project is structured into four parts corresponding to the major analyses in the article, including GBC analysis, Association analysis, Seed-based analysis and Validation.
+Content includes standalone software and source code. Due to the large size of the analyzed data, we have provided the code and the significant GBC measurement in a public data repository. The project is structured into four parts corresponding to the major analyses in the article, including GBC analysis, Association analysis, Seed-based analysis and Validation.
 
 
 ## Toolboxes
