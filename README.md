@@ -1,5 +1,5 @@
 # MDD_GlobalBarainConnectivity
-This repository provides core code and relevant toolboxes for data analysis in the article entitled "Dysfunction in Sensorimotor and Default Mode Networks in Major Depressive Disorder with Insights from Global Brain Connectivity " Zhang et al. Nature Mental Heanth 2024.
+This repository provides core code and relevant toolboxes for data analysis in the article entitled "Dysfunction in Sensorimotor and Default Mode Networks in Major Depressive Disorder with Insights from Global Brain Connectivity " Zhang et al. Nature Mental Health 2024.
 
 ## Overview
 Content includes standalone software and source code. Due to the large size of the analyzed data, we have provided the code and the significant GBC measurement in a public data repository. The project is structured into four parts corresponding to the major analyses in the article, including GBC analysis, Association analysis, Seed-based analysis and Validation.
@@ -16,13 +16,13 @@ AFNI, https://afni.nimh.nih.gov/
 
 ComBatHarmonization, ver. 20180620, https://github.com/Jfortin1/ComBatHarmonization
 
-DPABI_V4.2, http://rfmri.org/DPABI
+DPABI, toolbox:http://rfmri.org/dpabi
 
 IBM SPSS Statistics 26, commercial software, https://www.ibm.com/products/spss-statistics
 
 NeuroSynth, web-based decoding functions were used, https://neurosynth.org/
 
-Brainnet Viewer, http://www.nitrc.org/projects/bnv/
+Brainnet Viewer, ver. 1.7, http://www.nitrc.org/projects/bnv/
 
 We thank the authors and developers for providing these wonderful tools for data analysis. 
 
@@ -52,5 +52,5 @@ Please use the “add path” method in MATLAB to add toolboxes and scripts.
 
 ## Validation
 Validation analysis were conducted by accounting for potential influencing factors. 
-1. The inclusion of participants younger than 18 years could account for differences in brain development between groups. To address this, we repeated the statistical analysis, focusing solely on adult participants (MDD=1,000, HV=1,029). 
+1. The inclusion of participants younger than 18 years could account for differences in brain development between groups. To address this, we repeated the statistical analysis, focusing solely on adult participants. 
 2. We employed a leave-single-site-out validation strategy to assess whether the main findings were influenced by specific sites. This involved repeating the between-group comparisons, each time excluding data from one site. Within each validation, we utilized the ComBat harmonization model to correct for site effects in the remaining nine sites after excluding one site. The Dice coefficient (DSC) index was used to examine the similarity between each validation result and the main finding
